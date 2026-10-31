@@ -1,0 +1,64 @@
+(footprint "mounting_hole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.064 -2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a914c70f-2cc6-4909-8bb5-19b46a351f98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "mounting_hole"
+		(at 0.4 4.68 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8a9b0726-b314-46a3-b3e9-69ea821a1ea0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd476787-1e1d-46db-9ff2-403f80839d2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d6ebfbe-229c-4abe-ae84-06a445fd0f11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.6 6.6)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3bcb2b9e-a32f-40be-85e1-105a01f767c6")
+	)
+	(embedded_fonts no)
+)

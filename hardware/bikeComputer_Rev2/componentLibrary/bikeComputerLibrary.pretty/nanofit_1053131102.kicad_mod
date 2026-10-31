@@ -1,0 +1,122 @@
+(footprint "nanofit_1053131102"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.81 0.958 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "81cec362-7e94-41e2-8d37-e2e33180fae8")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "nanofit_1053131102"
+		(at 7.5 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3cf109bb-3fe2-4670-806f-1486c7516f57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "154a0657-3f97-41af-81f4-02751f4a66a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "cc047792-fcc0-4f90-b2f4-a25aaeaab5ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.2 0)
+		(end 3.2 12)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7824299e-ed16-42cc-8c33-566b11cf4826")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4dcdc990-8e45-40ac-8d22-0554acb2ba26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.25 7.18)
+		(size 2 2)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "b7d8288e-62dd-4ebc-9aa7-68db7c159d3a")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.25 7.18)
+		(size 2 2)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2b8298af-589c-4eff-a888-e2bba9e6bd89")
+	)
+	(pad "1" thru_hole circle
+		(at 1.25 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6e752248-7f33-497a-8815-fddb06c34b16")
+	)
+	(pad "2" thru_hole circle
+		(at -1.25 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97ffb0b4-62f5-4388-b115-7c124c4cb9e2")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/nicho/My Drive/Projects/Projects/PCB projects/MyKicadLibrary/3dBodies/1053131102.stp"
+		(offset
+			(xyz 0 -6.1 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
