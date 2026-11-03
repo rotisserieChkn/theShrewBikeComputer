@@ -3,6 +3,11 @@
 *.bak
 *~
 
+#kicad stuff
+*.kicad_prl
+fp-info-cache
+*-backups
+
 # Windows
 Thumbs.db
 Desktop.ini
